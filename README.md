@@ -45,7 +45,7 @@ number in small text somewhere in a corner to help you check that they all print
 make them easier to sort (check the documentation for the word processor to find out how
 to add the record number).
 
-### Checking Tickets
+## At the Door
 
 Finally, at the door, start running `ticket_checker.py`. Note that you'll need a color-
 compatible terminal for this to work - the default Windows one isn't, so use Windows Terminal
@@ -54,6 +54,8 @@ from the Microsoft Store.
 To start checking tickets, type `1` and press Enter. (The options are displayed on-screen.) To
 go back to that main menu while checking tickets, don't type (or scan) anything and press Enter at the
 "`Ready`" prompt.
+
+### Checking Tickets
 
 As people enter, point the barcode scanner at the barcode on the ticket. The scanner will type
 in the ID and press Enter for you. Wait for it to look up the ticket data in the database,
@@ -81,3 +83,32 @@ so you could easily destroy the database.
 
 Choose option 3 to print a list of unused tickets (i.e. ones that have not been scanned). This is
 handy for checking who didn't show up.
+
+## License
+
+Licensed under the GPLv2.
+
+You may:
+- modify this code
+- distribute your modified versions
+- use this code commercially or privately
+
+You must:
+- include this copyright and license notice with all modifications or derivatives
+- summarise your changes in the notice
+- give credit to the original
+- distribute any copies or derivatives under the same license, with the same conditions
+
+### Copyright Notice
+
+Copyright (C) 2023 Conor Eager
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.

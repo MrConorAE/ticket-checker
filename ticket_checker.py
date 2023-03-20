@@ -93,7 +93,16 @@ else:
 # Create the main menu.
 while True:
     # Print the main menu.
-    print(f"\n{c.bold}{c.f.cyan}{c.reverse}NPBHS 2022 BALL CHECK-IN{c.r}")
+    print(f"\n{c.bold}{c.f.cyan}{c.reverse}TICKET CHECKER{c.r}")
+
+    print("""
+Ticket Checker v1.1, Copyright (C) 2023 Conor Eager
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions.
+For more information, see the included LICENSE file.
+    """)
+
     print(f"Select an option:\n1. Start\n2. Run Query\n3. Print List of No-Shows\n0. Exit")
     menu_option = input(f"{c.bold}{c.f.cyan}Select: {c.r}")
     if (menu_option == "1"):
@@ -123,7 +132,7 @@ while True:
 
                     if result[4] == 1:
                         message += f"\n{c.f.cyan}Status:{c.r}\t{c.f.red}{c.reverse}Invalidated{c.r}"
-                        message += f"\n\n{c.f.red}{c.reverse} → TICKET INVALID - DO NOT ADMIT {c.r}",
+                        message += f"\n\n{c.f.red}{c.reverse} → TICKET INVALID - DO NOT ADMIT {c.r}"
                         print(message)
 
                         # input(
